@@ -1,0 +1,186 @@
+.body{
+    font-family: "Montserrat";
+}
+/* -----section 1------- */
+
+
+#title{
+    background-color: #5800ff;
+}
+.heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* -----hOVERS------- */
+.navigation{
+    padding-bottom: 4.5rem;
+   
+}
+.log{
+    text-decoration: none;
+}
+.brand-name:hover{
+    color: gold;
+}
+.brand-name{
+    font-size: 2.5rem;
+    font-family: "ubuntu";
+    font-weight: bold;
+}
+.link-sizer{
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light";
+}
+.butt:hover .apple{
+    color: red;
+
+}
+.butt{
+    margin:5% 3% 5% 0;
+}
+.cgif{
+    width: 60%;
+    margin-left: 100px;
+    
+}
+/* section2 */
+#form-input{
+    
+    background-image: url("/img/lake.jpg");
+    background-repeat: no-repeat;
+    height: 768px;
+    padding-top: 10%;
+}
+.inner-div{
+    margin: 0% 15%;
+    padding: 5% 5%;
+    border: 5px solid aquamarine;
+    /* background-color: #DCD7C9; */
+ 
+}
+label{
+    color: #CDB30C;
+}
+.inner-div:hover label{
+    color: red;
+    /* font-family: "Montserrat-bold"; */
+    font-weight: bolder;
+}
+
+form{
+    margin-left:20%;
+}
+.name,.email,.event,.dob{
+    margin-left: 17%;
+}
+.input{
+    width: 50%;
+    background: inherit;
+ 
+}
+.submit-botn{
+    margin-left: auto;
+}
+input:focus{
+    background-color: black;
+    color: aqua;
+}
+.dob:focus{
+    background-color: chartreuse;
+    color: black;
+}
+.reset-botn {
+    
+    margin-left: 30%;
+}
+.submit-botn{
+        margin-left: 3%;
+
+}
+/* #myVideo {
+    
+    width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+} */
+
+
+/* section values */
+#value{
+    background-color: white;
+    padding: 7% 15%;
+}
+.value-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montserrat-Bold";
+}
+.icon{
+    color: #5800FF;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: orangered;
+}
+
+/* slide */
+#slide{
+    background-color: #5800FF;
+    text-align: center;
+    
+    
+}
+
+h4 {
+    font-family: "Montserrat-Bold";
+    padding-top: 3%;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.certi-img{
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+h4 span{
+    color: black;
+    border: 5px solid green;
+    background-color: orange;
+}
+/* contact sec */
+#contact{
+    text-align: center;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 2;
+}
+#contact .contact{
+    font-size: 30px;
+}
+#contact a{
+    text-decoration: none;
+    color: #5800FF;
+}
+#contact span{
+    color: #D800A6;
+}
+.top-btn{
+    margin-left: 90%;
+}
